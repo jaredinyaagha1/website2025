@@ -23,11 +23,11 @@
 import Image from "next/image"
 import Card from "@/components/Card"
 import Badge from "@/components/Badge"
-import { Gamepad2, Clapperboard, Plane, Instagram, Youtube, Globe, Palette, BicepsFlexed, Cpu } from "lucide-react"
+import { Gamepad2, Plane, Palette, BicepsFlexed, Cpu } from "lucide-react"
 
 export default function Page() {
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8 md:py-12">
+    <main className="mx-auto px-4 py-8 md:py-12">
       <div className="grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-6">
 
         {/* Avatar */}
