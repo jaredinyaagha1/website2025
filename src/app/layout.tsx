@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: "Jared Inya-Agha", description: "Port
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html data-theme="portfolioDark" lang="en">
-      <body className={`${inter.className} bg-base-100 text-base-content`}>{children}</body>
+      <body className={`${inter.className} text-base-content`}>{children}</body>
     </html>
   )
 }
